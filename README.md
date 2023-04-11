@@ -13,7 +13,7 @@ Vuln-Web 리포는 웹 해킹 연습을 위한 취약한 환경들을 도커를 
 ## 사용법
 - 칼리 리눅스 / 데비안 + Zsh 기준 
 ```
-
+curl -sSL https://raw.githubusercontent.com/grootboan/vuln-web/main/vulnweb.sh | sudo zsh
 ```
 
 ## 스크립트 실행 후 

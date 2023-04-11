@@ -7,7 +7,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg |
 sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-ce-archive-keyring.gpg
 sudo apt update -y 
 sudo apt install -y docker-ce docker-ce-cli containerd.io
-docker --help 
+sudo docker --version
 
 
 tz=$(cat /etc/timezone)
@@ -25,5 +25,4 @@ http://localhost:80               - DVWA
 http://localhost:1000/install.php - bWAPP 
 http://localhost:2000             - JuiceShop 
 http://localhost:3000/WebGoat     - WebGoat 
-http://localhost:4000             - VAmPI
-EOF 
+http://localhost:4000             - VAmPI 
